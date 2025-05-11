@@ -1,2 +1,3 @@
-# challenges-and-data-structures
-# test
+# Whiteboard challenges
+Link to whiteboard challenges:
+[link](Whiteboard-Challenges/README.md)
