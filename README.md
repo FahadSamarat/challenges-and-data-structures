@@ -11,3 +11,7 @@
 ## Link to Challenge 3: Reverse Characters
 
 [link](Whiteboard-Challenges/Challenge-3-Reverse-Characters/README.md)
+
+## Challenge 4: Remove Middle Value
+
+[link](Whiteboard-Challenges/challenge-4-remove-middle-value/README.md)
