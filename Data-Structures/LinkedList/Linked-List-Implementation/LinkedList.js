@@ -1,4 +1,5 @@
 const Node = require("./NodeClass");
+const reverseLinkedList = require("./reverse/reverse");
 
 class linkedList {
   constructor() {
@@ -104,8 +105,13 @@ insertAt(data, index) {
   }
 }
 
-
-
+  reverse() {
+    try {
+      this.head = reverseLinkedList(this.head);
+    } catch (error) {
+      console.error("Error reversing list:", error.message);
+    }
+  }
 
 printList() {
   try {

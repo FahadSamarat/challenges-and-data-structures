@@ -1,5 +1,4 @@
 const LinkedList = require("./LinkedList");
- 
 const list = new LinkedList();
 
 list.add(5);
@@ -17,5 +16,8 @@ console.log(list.includes(9));
 
 list.insertAt(4,2);
 list.insertAt(77,5);
+list.printList();
+
+list.reverse();
 list.printList();
 
