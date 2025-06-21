@@ -19,3 +19,7 @@
 ## Linked List Implementation
 
 [link](Data-Structures/LinkedList/Linked-List-Implementation/README.md)
+
+## Linked List Reverse
+
+[link](Data-Structures/LinkedList/Linked-List-Implementation/reverse/README.md)
