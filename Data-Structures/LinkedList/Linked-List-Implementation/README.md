@@ -13,28 +13,28 @@
 
 ## add method
 
-![add](images/add.jpg)
+![add](docs/add.jpg)
 
 ## remove method
 
-![remove](images/remove.jpg)
+![remove](docs/remove.jpg)
 
 ## insertAt method
 
-![ia](images/insertAt.jpg)
+![ia](docs/insertAt.jpg)
 
 ## includes method
 
-![i](images/includes.jpg)
+![i](docs/includes.jpg)
 
 ## printList method
 
-![pl](images/printList.jpg)
+![pl](docs/printList.jpg)
 
 ## Console Screenshot
 
-![cs](images/c-ss.png)
+![cs](docs/c-ss.png)
 
 ## Unit Tests With Jest Screenshot
 
-![ut](images/ut.png)
+![ut](docs/ut.png)
