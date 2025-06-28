@@ -23,3 +23,7 @@
 ## Linked List Reverse
 
 [link](Data-Structures/LinkedList/Linked-List-Implementation/reverse/README.md)
+
+## Linked List Merge Sorted Lists
+
+[link](Data-Structures/LinkedList/Linked-List-Implementation/MergeSorted/README.md)

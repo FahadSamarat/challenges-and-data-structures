@@ -113,6 +113,7 @@ insertAt(data, index) {
     }
   }
 
+
 printList() {
   try {
     if (this.head === null) {
