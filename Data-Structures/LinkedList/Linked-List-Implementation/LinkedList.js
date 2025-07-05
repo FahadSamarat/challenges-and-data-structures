@@ -1,5 +1,7 @@
 const Node = require("./NodeClass");
 const reverseLinkedList = require("./reverse/reverse");
+const { rotateLeft } = require("./rotateLinkedList/rotateLinkedList");
+
 
 class linkedList {
   constructor() {
@@ -112,6 +114,14 @@ insertAt(data, index) {
       console.error("Error reversing list:", error.message);
     }
   }
+
+    rotateLeft(k) {
+  try {
+    this.head = rotateLeft(this.head, k);
+  } catch (error) {
+    console.error("Error rotating:", error.message);
+  }
+}
 
 
 printList() {
