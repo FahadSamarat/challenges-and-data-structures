@@ -27,3 +27,7 @@
 ## Linked List Merge Sorted Lists
 
 [link](Data-Structures/LinkedList/Linked-List-Implementation/MergeSorted/README.md)
+
+## Linked List Rotate by K
+
+[link](Data-Structures/LinkedList/Linked-List-Implementation/rotateLinkedList/README.md)
