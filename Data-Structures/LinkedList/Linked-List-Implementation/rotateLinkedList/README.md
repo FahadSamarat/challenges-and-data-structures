@@ -1,6 +1,7 @@
 # Linked List Rotate by K
 
-Given two sorted singly linked lists, merge them into a new sorted linked list that contains all nodes from both input lists in sorted order.
+>- Given a singly linked list and an integer rotate the linked list to the left by k places.
+>- After rotating, the node which was originally at position will now become the head of the list, and the remaining nodes will follow.
 
 ## rotateLeft, rotateRight
 
