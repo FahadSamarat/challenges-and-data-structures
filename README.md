@@ -31,3 +31,7 @@
 ## Linked List Rotate by K
 
 [link](Data-Structures/LinkedList/Linked-List-Implementation/rotateLinkedList/README.md)
+
+## Stack and Queue Implementation
+
+[link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/README.md)
