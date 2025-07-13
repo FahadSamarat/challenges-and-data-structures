@@ -23,6 +23,6 @@ queue.enqueue(10);
 queue.printQueue();
 console.log("dequeue: ", queue.dequeue());
 queue.printQueue();
-console.log("peek: ", queue.front.next.data);
+console.log("peek: ", queue.peek());
 
 
