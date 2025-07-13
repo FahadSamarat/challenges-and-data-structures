@@ -15,7 +15,7 @@ Both Stack and Queue are fundamental linear data structures used to manage colle
 
 ## Console Screenshot
 
-![co](./images/co.png)
+![co-update](./images/co.png)
 
 ## Unit Tests With Jest Screenshot
 
