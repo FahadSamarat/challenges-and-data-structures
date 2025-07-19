@@ -35,3 +35,7 @@
 ## Stack and Queue Implementation
 
 [link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/README.md)
+
+## Stack Challenge: Delete Middle Element of a Stack
+
+[link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/DeleteMiddleElement/README.md)
