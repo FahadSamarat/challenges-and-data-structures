@@ -45,6 +45,19 @@ class Stack {
 
     console.log("Stack - Top:", result.join(" -> "));
   }
+
+  size() {
+  let count = 0;
+  let current = this.top;
+
+  while (current) {
+    count++;
+    current = current.next;
+  }
+
+  return count;
+}
+
 }
 
 module.exports = Stack;
