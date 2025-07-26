@@ -39,3 +39,7 @@
 ## Stack Challenge: Delete Middle Element of a Stack
 
 [link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/DeleteMiddleElement/README.md)
+
+## Min Stack Challenge
+
+[link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/MinStack//README.md)
