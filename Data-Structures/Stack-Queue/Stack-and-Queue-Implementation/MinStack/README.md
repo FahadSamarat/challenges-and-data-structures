@@ -1,6 +1,4 @@
-# Stack and Queue Implementation
-
-## Stack Challenge: Delete Middle Element of a Stack
+# Min Stack Challenge
 
 Implement a stack that supports the following operations in constant time O(1).
 
