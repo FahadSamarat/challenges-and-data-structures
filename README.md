@@ -43,3 +43,7 @@
 ## Min Stack Challenge
 
 [link](Data-Structures/Stack-Queue/Stack-and-Queue-Implementation/MinStack//README.md)
+
+## Binary Tree and Binary Search Tree Implementation
+
+[link](Data-Structures/Tree-Implementation/README.md)
