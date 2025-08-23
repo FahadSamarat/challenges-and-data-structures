@@ -28,3 +28,5 @@ console.log("Tree structure after removal:");
 bst.print();
 
 console.log("Contains 5:", bst.contains(5)); // false
+
+console.log("findSecondMax:", bst.findSecondMax());

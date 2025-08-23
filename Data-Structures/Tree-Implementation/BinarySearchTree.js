@@ -94,6 +94,51 @@ class BinarySearchTree extends BinaryTree {
     }
     return node;
   }
+
+  findSecondMax() {
+    try {
+      if (!this.root) {
+        throw new Error("Tree is empty");
+      }
+
+      if (!this.root.left && !this.root.right) {
+        throw new Error("Tree has only one node");
+      }
+
+      let current = this.root;
+      let parent = null;
+      let secondMax = null;
+
+      // Find the maximum node (rightmost node)
+      while (current.right) {
+        parent = current;
+        current = current.right;
+      }
+
+      // If the maximum node has a left subtree, the second maximum is the maximum of that subtree
+      if (current.left) {
+        secondMax = this._findMaxNode(current.left).value;
+      } else if (parent) {
+        // If no left subtree, the parent is the second maximum
+        secondMax = parent.value;
+      } else {
+        // This handles the case where root is max and has no right children
+        secondMax = this._findMaxNode(current.left).value;
+      }
+
+      return secondMax;
+    } catch (error) {
+      console.error("Error finding second maximum value:", error.message);
+      return null;
+    }
+  }
+
+  _findMaxNode(node) {
+    while (node && node.right) {
+      node = node.right;
+    }
+    return node;
+  }
 }
 
 module.exports = BinarySearchTree;
