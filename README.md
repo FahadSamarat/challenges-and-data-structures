@@ -47,3 +47,7 @@
 ## Binary Tree and Binary Search Tree Implementation
 
 [link](Data-Structures/Tree-Implementation/README.md)
+
+## Binary Tree Second Max Value
+
+[link](Data-Structures/Tree-Implementation/SecondMaxValue/README.md)

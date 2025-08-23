@@ -9,6 +9,10 @@ Implement a binary tree and binary search tree (BST) with the following methods:
 
 ![wb](images/tree-wb.jpg)
 
-## Console Screenshot
+## Console - Screenshot
 
 ![co](./images/tree-co.png)
+
+## Unit Tests With Jest - Screenshot
+
+![ut](./images/tree-t.png)
