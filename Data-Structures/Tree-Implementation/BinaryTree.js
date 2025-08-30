@@ -33,6 +33,21 @@ class BinaryTree {
     return result;
   }
 
+  sumOfLeafNodes(node = this.root) {
+    try {
+      if (!node) return 0;
+
+      if (!node.left && !node.right) {
+        return node.value;
+      }
+
+      return this.sumOfLeafNodes(node.left) + this.sumOfLeafNodes(node.right);
+    } catch (error) {
+      console.error("Error calculating leaf sum:", error);
+      return 0;
+    }
+  }
+
   print(node = this.root, prefix = "", isLeft = true) {
     if (!node) return;
 
