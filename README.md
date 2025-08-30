@@ -51,3 +51,7 @@
 ## Binary Tree Second Max Value
 
 [link](Data-Structures/Tree-Implementation/SecondMaxValue/README.md)
+
+## Binary Tree Sum of Leaf
+
+[link](Data-Structures/Tree-Implementation/LeafSum/README.md)
